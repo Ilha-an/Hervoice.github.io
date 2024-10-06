@@ -1,14 +1,28 @@
 //comfiguration setting for Hervoice website
 
 Site:
-  Title: "Her Voice"
-  Description: a digital platform that is designed to mobilize and empower women affected by gender-based-violence.
-  Author: "Ilhan Birik Abdi"
-  url:"https://hervoice.com"
 
-Navigation:
- - title: "Home"
-    url: "/"
- - title: "About"
-    url: "/about"
- - title: 
+title: "HerVoice Project"
+description: "A community-driven platform for amplifying women's voices and empowering their narratives."
+author: "Ilhan Birik Abdi"
+version: "1.0.0"
+license: "MIT"
+
+# Optional: Add other relevant metadata
+repository:
+  url: "https://github.com/ilha-an/hervoice"
+  issues_url: "https://github.com/ilha-an/hervoice/issues"
+  homepage: "https://Hervoice.github.io"
+
+dependencies:
+  - name: "SomeDependency"
+    version: "1.2.3"
+  - name: "AnotherDependency"
+    version: "4.5.6"
+
+# Optional: Build or deployment information
+build:
+  type: "node"
+  script: "npm run build"
+  deploy: "heroku"
+
