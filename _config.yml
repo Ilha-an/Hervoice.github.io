@@ -1,1 +1,14 @@
+//comfiguration setting for Hervoice website
 
+Site:
+  Title: "Her Voice"
+  Description: a digital platform that is designed to mobilize and empower women affected by gender-based-violence.
+  Author: "Ilhan Birik Abdi"
+  url:"https://hervoice.com"
+
+Navigation:
+ - title: "Home"
+    url: "/"
+ - title: "About"
+    url: "/about"
+ - title: 
